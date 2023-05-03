@@ -137,7 +137,7 @@ h4{
 }
 
 #search li+li{
-    padding: 0.4rem 0.5rem;
+    padding: 0.4rem 1rem;
     text-decoration: none;
     border: 2px solid #F2F2F2;
     border-radius: 18px;
@@ -155,6 +155,11 @@ h4{
 
 .button_filter i{
     color: #0065FC;
+}
+
+.logo-info{
+    vertical-align: middle;
+    font-size: 0.7em;
 }
 
 .color-blue{
@@ -458,6 +463,12 @@ footer li{
         margin-right: 1%;
     }
 
+}
+
+@media screen and (max-width: 812px){
+    #search li{
+        font-size: 16px;
+    }
 }
 
 @media screen and (max-width: 768px){
